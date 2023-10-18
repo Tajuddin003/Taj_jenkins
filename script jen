@@ -1,0 +1,17 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('wish me') {
+            steps {
+                echo 'i want to wish u a happy birthday'
+            }
+          }
+        stage('birthday'){
+            steps{
+                echo 'happpy birthday'
+              
+           }
+        }
+    }
+}
